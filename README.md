@@ -1,8 +1,6 @@
-# Fusion360 parts list with dimensions, counts, and total lengths
+# Fusion360 bodies list, ready to be read by http://cutlistoptiumizer.com
 
-The add-in will display a summary of materials used in your design, including dimensions, counts from each size, 
-and total length of material used.
-
-Read installation instructions [here](https://blog.teamleadnet.com/2021/07/fusion-360-part-list-dimensions-counts.html).
-
-![Fusion 360 parts list - dimensions and counts](fusion360_part_list_screenshot.png "Fusion 360 parts list")
+This script list visible bodies, get their outbox dimensions,
+sort the x,y,z values in order to defin thickness, length and width,
+then export the table to https://www.cutlistoptimizer.com/ .csv file.
+ WARNING : It doesn't mesure the real thickness and the orientation of grain.
