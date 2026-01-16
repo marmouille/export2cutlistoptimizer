@@ -1,0 +1,12 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"script",
+	"author":	"Adam Horvath + David Marmilloud",
+	"description":	{
+		"":	"Exporte une liste des pièces visibles sou forme de tableau csv au format de CutList Optimizer (les dimensions sont triées par grandeur croissante et distribuées comme suit : épaisseur < largeur < longeur"
+	},
+	"version":	"0.1",
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true,
+	"iconFilename":	"ScriptIcon.svg"
+}
